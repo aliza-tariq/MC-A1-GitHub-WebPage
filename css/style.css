@@ -1,7 +1,16 @@
 body{
     background-color:rgb(245, 236, 236);
+   
 }
 
 #mycontents{
-    background-color: white;
+    background-color: rgb(206, 191, 206);
+}
+.myNavbar
+{
+    background-color: rgb(87, 28, 87);
+    color: white !important;
+    font-size: larger; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
