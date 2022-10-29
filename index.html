@@ -33,23 +33,29 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                <a class="nav-link active" aria-current="page" 
+                                href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#branching">Repositories</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#">Branching</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    Dropdown link
+                                    Branching
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#b1">Make New Branch</a></li>
+                                    <li><a class="dropdown-item" href="#b2">Existing Branches</a></li>
+                                    <li><a class="dropdown-item" href="#b3">Switch Branches</a></li>
+                                    <li><a class="dropdown-item" href="#b4">Update New Branch</a></li>
+                                    <li><a class="dropdown-item" href="#b5">Compare Branhes</a></li>
+                                    <li><a class="dropdown-item" href="#b6">Delete Branch</a></li>
+                                    
+
                                 </ul>
                             </li>
                         </ul>
@@ -68,39 +74,34 @@
     </div>
 
     <div class="sidenav">
-<ul>
-        <li><a href="#account">How To Make GITHUB Account</a>
-        </li><a><a href="#repo">What are Repositories?</a>
+
+        <a href="#account">GITHUB Account</a>
+        
+    <a href="#repo">What are Repositories?</a>
             <ul>
-                <li><a href="#publicrepos">Making Public Repositories</a></li>
+                <li><a href="#publicrepos">Public Repositories</a></li>
             </ul>
             <ul>
-                <li><a href="#privaterepos">Making Private Repositories</a></li>
+                <li><a href="#privaterepos">Private Repositories</a></li>
             </ul>
             <ul>
-                <li><a href="#privateToPublic">Making a Private Reposiitory Public.
+                <li><a href="#privateToPublic">Private Reposiitory Public.
                     </a></li>
             </ul>
-            </li>
-
-            <li><a href="#livepages"> Making Live Wepage on GitHUB.</a></li>
-            <li> <a href="#cloning">Cloning Repository</a></li>
-            <li><a href="#adding">How to initializa , add, commit and cehck status
-                    of files.</a></li>
-            <li><a href="#pushing">Setting Remote URL and pushing Files to github. </a></li>
-            <li><a href="#deleting">Deleting file/folder.</a></li>
-            <li><a href="#renaming">Renaming a file/folder.</a></li>
-            <li><a href="#branching">Branching</a></li>
-            <li><a href="#merging">Merging</a></li>
-            <li><a href="#mergeconflict">Merge Conflict</a></li>
-            <li><a href="#pull">Pull From Github.</a></li>
-            <li><a href="#fork"> Fork Repository</a></li>
-            <li><a href="#edit">Edit Files From Github Account</a></li>
-            </a></ul>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
+            
+            <a href="#livepages">Live Pages</a>
+             <a href="#cloning">Cloning</a>
+            <a href="#adding">Initializa , Add, Commit and check Status.</a>
+            <a href="#pushing">Remote URL and Push Files </a>
+            <a href="#deleting">Deleting file/folder.</a>
+            <a href="#renaming">Renaming a file/folder.</a>
+            <a href="#branching">Branching</a>
+            <a href="#merging">Merging</a>
+            <a href="#mergeconflict">Merge Conflict</a>
+            <a href="#pull">Pull From Github.</a>
+            <a href="#fork"> Fork Repository</a>
+            <a href="#edit">Edit Files From Github Account</a>
+        
     </div>
 
     <div class="main">
@@ -726,6 +727,16 @@
             </div>
 
 
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="renaming" class="col-lg-10">
+                    <li>To rename a file following command is used
+                        <br> <b>git mv sourcefilename destinationfilename </b>
+                    </li>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
 
 
             <!-- ********************************************* -->
@@ -758,7 +769,7 @@
                     </p>
 
                     <br><br><br>
-                    <h3>How to Make a new Branch.</h3>
+                    <h3 id="b1">How to Make a new Branch.</h3>
                     <ul>
                         <li>Run the following Command On the terminal.
                             <br>
@@ -770,7 +781,7 @@
                     </ul>
 
                     <br><br><br>
-                    <h3>Checking Existing Branches</h3>
+                    <h3 id="b2">Checking Existing Branches</h3>
                     <ul>
                         <li>
                             Run the following command to see all branches.
@@ -788,7 +799,7 @@
 
 
                     <br><br><br>
-                    <h3>Switching to other Branches.</h3>
+                    <h3 id="b3">Switching to other Branches.</h3>
                     <ul>
                         <li>
                             Following command is used to switch to the other branch.
@@ -808,7 +819,7 @@
                     </ul>
 
                     <br><br><br>
-                    <h3>Updating Files in New Branch.</h3>
+                    <h3 id="b4">Updating Files in New Branch.</h3>
                     <ul>
                         <li>Checkout to new Branch.</li>
                         <li>Update Data.</li>
@@ -834,7 +845,7 @@
                     </ul>
 
                     <br><br><br>
-                    <h3>Comparing Branches</h3>
+                    <h3 id="b5">Comparing Branches</h3>
                     <ul>
                         <li>Yoc can Compare files in Branches</li>
                         <li>When you are in new branch and new branch file/files are updated.
@@ -851,7 +862,7 @@
                     </ul>
 
                     <br><br><br>
-                    <h3>Deleting a branch</h3>
+                    <h3 id="b6">Deleting a branch</h3>
                     <ul>
                         <li>To delete a branch use the following command.
                             <br><b>Git branch –d branchname</b>
@@ -1014,16 +1025,7 @@
 
 
 
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div id="renaming" class="col-lg-10">
-                    <li>To rename a file following command is used
-                        <br> <b>git mv sourcefilename destinationfilename </b>
-
-                    </li>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
+           
 
             <div class="row">
                 <div class="col-lg-1"></div>
