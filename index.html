@@ -1,1108 +1,1172 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap demo</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link href="./css/style.css" rel="stylesheet">
-        <link href="./css/navbar.css" rel="stylesheet">
-  
-    </head>
 
-    <body>
-        <div class="main">
-    <header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/navbar.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <header>
 
 
-        <nav class="navbar navbar-expand-lg myNavbar">
-            <div class="container-fluid" style="color: white;">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./images/logo.png" alt="Logo" width="40px" height="40px" 
-                    class="d-inline-block align-text-top">
-                    GITHUB
-                  </a>
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
+            <nav class="navbar navbar-expand-lg myNavbar">
+                <div class="container-fluid" style="color: white;">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./images/logo.png" alt="Logo" width="40px" height="40px"
+                            class="d-inline-block align-text-top">
+                        GITHUB
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
 
-              <div class="container-fluid">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
 
-    </header>
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
     </div>
 
     <div class="sidenav">
+<ul>
+        <li><a href="#account">How To Make GITHUB Account</a>
+        </li><a><a href="#repo">What are Repositories?</a>
+            <ul>
+                <li><a href="#publicrepos">Making Public Repositories</a></li>
+            </ul>
+            <ul>
+                <li><a href="#privaterepos">Making Private Repositories</a></li>
+            </ul>
+            <ul>
+                <li><a href="#privateToPublic">Making a Private Reposiitory Public.
+                    </a></li>
+            </ul>
+            </li>
+
+            <li><a href="#livepages"> Making Live Wepage on GitHUB.</a></li>
+            <li> <a href="#cloning">Cloning Repository</a></li>
+            <li><a href="#adding">How to initializa , add, commit and cehck status
+                    of files.</a></li>
+            <li><a href="#pushing">Setting Remote URL and pushing Files to github. </a></li>
+            <li><a href="#deleting">Deleting file/folder.</a></li>
+            <li><a href="#renaming">Renaming a file/folder.</a></li>
+            <li><a href="#branching">Branching</a></li>
+            <li><a href="#merging">Merging</a></li>
+            <li><a href="#mergeconflict">Merge Conflict</a></li>
+            <li><a href="#pull">Pull From Github.</a></li>
+            <li><a href="#fork"> Fork Repository</a></li>
+            <li><a href="#edit">Edit Files From Github Account</a></li>
+            </a></ul>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#clients">Clients</a>
         <a href="#contact">Contact</a>
-      </div>
-
-      <div class="main">
-    <center><h1> GIT AND GITHUB</h1></center>
-    
-
-
-    <div class="row">
-    <div class="col-lg-1"></div>
-    <div id="logo" class="col-lg-4">
-        <img id="#carimg" src="./images/githublogo.png" 
-        class="d-block w-100" alt="..." style="height: 300px; width: 1000px;">
-    </div>
-    <div id="gitIntro" class="col-lg-6">
-        
-        <h2>What is Git?</h2>
-        <p id ="git"><ul>
-            Git is a version control system.
-            Git helps you keep track of code changes.
-            Git is used to collaborate on code.</ul>
-            </p>
-
-            <h2>What is GITHUB?</h2>
-            <p id ="github">
-                <ul>
-               <li> GitHub is a code hosting platform for version control and collaboration.
-                 It lets you and others work together on projects from anywhere. 
-                 This tutorial teaches you GitHub essentials like repositories, branches,
-                  commits, and pull requests.</li>
-                  <li>GitHub is an increasingly popular programming resource used for code sharing. It's a social networking site for programmers that many companies and
-                     organizations use to facilitate project management and collaboration.</li>
-                </ul>
-
-            </p>
-            
     </div>
 
-    <div class="col-lg-1"></div>
-</div>
-
-
-
-<div class="row" id="mycontents">
-    <div class="col-lg-1"></div>
-    <div id="CONTENTS" class="col-lg-7">
-        
-            <h2>CONTENTS THAT YOU LEARN</h2>
-        
-                <ul>
-                    <li><a href="#account">How To Make GITHUB Account</a></li>
-                    
-                    <a><a  href="#repo">What are Repositories?</a>
-                        <ul><li><a  href="#publicrepos">Making Public Repositories</a></li></ul>
-                        <ul><li><a href="#privaterepos">Making Private Repositories</a></li></ul>
-                        <ul><li><a href="#privateToPublic">Making a Private Reposiitory Public.
-                        </a></li></ul>
-                    </li>
-
-                        <li><a href="#livepages"> Making Live Wepage on GitHUB.</a></li>                       
-                       <li> <a href="#cloning">Cloning Repository</a></li>    
-                       <li><a href="#adding">How to initializa , add, commit and cehck status 
-                        of files.</a></li> 
-                        <li><a href="#pushing">Setting Remote URL and pushing Files to github. </a></li> 
-                        <li><a href="#deleting">Deleting file/folder.</a></li>
-<li><a href="#branching">Branching</a></li>
-<li><a href="#merging">Merging</a></li>
-<li><a href="#mergeconflict">Merge Conflict</a></li>
-<li><a href="#pull">Pull From Github.</a></li>
-<li><a href="#renaming">Renaming a file/folder.</a></li>
-
-                       <li><a href="#fork"> Fork Repository</a></li>
-
-                       <li><a href="#edit">Edit Files From Github Account</a></li>
-                    
-                    <li>What are Repositories?
-                        <ul><li>Making Public Repositories</li></ul>
-                        <ul><li>Making Private Repositories</li></ul>
-                    </li>
-
-                        <li>Merging</li>                       
-                       <li>Branching</li>                      
-                       <li>Merging conflict</li>
-                </ul>
-          
-    </div>
-    <div id="contentpic" class="col-lg-3">
-        <img id="#carimg" src="./images/contents.jpg" 
-        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;">
-    </div>
-    <div class="col-lg-1"></div>
-
-
-
-
-<div class="row">
-    <div class="col-lg-1"></div>
-    <div id="account" class="col-lg-10">
-        
-            <h2>MAKING GITHUB ACCOUNT</h2>
-            <p>
-                <ul>
-                    <li>Got github.com <a href="https://github.com/">github</a></li>
-
-                    <li>Click on sign up.</li>
-                    <li>Enter Credentials needed.</li>
-                    <li>Your Account will be created.</li>
-                        
-                </ul>
-            </p>
-
-    </div>
-    <div class="col-lg-1"></div>
-</div>
-
-<div class="row">
-    <div class="col-lg-1"></div>
-    <div id="signin" class="col-lg-10">
-        <img id="#carimg" src="./images/signin.png" 
-        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;">
-    </div>
-    <div class="col-lg-1"></div>
-    </div>
-
-
-
-
-    <div class="row">
-        <div class="col-lg-1"></div>
-        <div id="repo" class="col-lg-10">
-           <h2>What are Repositories?</h2>
-           <p>
-            <ul>
-            <li>A GitHub repository can be used to store a development project.</li>
-
-                <li>It can contain folders and any type of files (HTML, CSS, 
-                    JavaScript, Documents, Data, Images).</li>
-                
-                <li>A GitHub repository should also include a licence file and
-                     a README file about the project.</li>
-                
-                <li>A GitHub repository can also be used to 
-                    store ideas, or any resources that you want to share.</li>
-            </li></ul>
-           </p>
-        </div>
-
-        <div class="col-lg-1"></div>
-        </div>
-
-
-
-        
-<div class="row">
-    <div class="col-lg-1"></div>
-    <div id="publicrepos" class="col-lg-10">
-        
-            <h3>MAKING Public Repositories</h3>
-            <p>
-                <ul>
-                    <li>Click on your profile icon.</li>
-                    <li>Go to your Repositories.</li>
-                    <li>Click on create new.
-                        <img id="#carimg" src="./images/publicrepo1.png" 
-                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;">
-                    </li>
-
-                    <li>Click on create new.</li>
-
-                    <li>Make it public.    <img id="#carimg" src="./images/publicrepo1.png" 
-                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"></li>
-                    <li>Click on Create Reposiitory <img id="#carimg" src="./images/publicrepo2.png" 
-                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"></li>
-
-                    
-
-                    
-                </ul>
-
-            </p>
-    </div>
-    <div class="col-lg-1"></div>
-</div>
-
-
-
-
-<div class="row">
-    <div class="col-lg-1"></div>
-    <div id="privaterepos" class="col-lg-10">
-        <h3>Making Private Reposiitory</h3>
-        <br>
-        <ol>
-            <li>Create a new repository on your git hub Accout.</li>
-            <li>Choose it as Private Repository.</li>
-            <br><img id="#carimg" src="./images/private1.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                <li>Click on button create repository.</li>
-
-                <br><img id="#carimg" src="./images/private2.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-                <li>Now Open Project folder in either GitBash terminal or VScode terminal</li>
-
-                <br><img id="#carimg" src="./images/private3.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                <br><img id="#carimg" src="./images/private4.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-            <li>Add Configuration Information. Commands are listed below:
-                <ul>
-                    <li>git config --global user.name “Aliza Tariq”</li>
-                    <li>git config –global user.email username@gmail.com
-                        <li>To view config Information.<br>
-                            git config –global –list</li>
-                        </li>
-                </ul>
-            </li>
-            <br><img id="#carimg" src="./images/private5.png" 
-            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-            <li>Initialize the Repository by the following command.<br>
-                git init
-                
-
-                <p>
-                    By this Command .git folder will be created which is a hidden folder and you can see by changing the settings.
-<br>
-Command to all folders/files including hidden.
-ls -lart
-
-                </p>
-                <br><img id="#carimg" src="./images/private6.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br></li>
-                <br><img id="#carimg" src="./images/private7.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br></li>
-
-            <li>To view status <br> git status</li>
-            <br><img id="#carimg" src="./images/private8.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-
-
-                <li>To push Local repository in remote repository add/set remote url.<br>
-                    git remote add origin https://github.com/aliza-tariq/MC-A1-GitHub-WebPage.git
-                <br>Copy the url
-                
-
-                <br><img id="#carimg" src="./images/private9.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                Git remote<br>
-                Git remote -v
-                <br><img id="#carimg" src="./images/private10.png" 
-                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                
-            </li>
-            <li>
-                SSH AND GPG KEYS Deploy<br>
-Pushing in private repository<br>
-When we try to push it will give an error because it is a private repository and git will not give such type of information about private one.
-
-<br><img id="#carimg" src="./images/private11.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<h5>What are SSH Keys?</h5>
-<p>SSH is a secure shell network protocol that is used for network management, remote file transfer, and remote system access.
-    Using the SSH protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit. You can also use an SSH key to sign commits.
-<ul>
-<li>SSH uses a pair of SSH keys to establish an 
-    authenticated and encrypted secure network protocol.
-     It allows for secure remote communication on unsecured open networks.</li>
-<li>SSH keys are used to initiate a secure "handshake". When generating a 
-    set of keys, you will generate a "public" and "private" key.</li>
-<li>The "public" key is the one you share with the remote party. Think of 
-    this more as the lock.</li>
-<li>The "private" key is the one you keep for yourself in a secure place. 
-    Think of this as the key to the lock.</li>
-<li>SSH keys are generated through a security algorithm. 
-    It is all very complicated, but it uses prime numbers, and
-     large random numbers to make the public and private key.</li>
-<li>It is created so that the public key can be derived from
-     the private key, but not the other way around.</li>
-</ul>    
-</p>
-
-<p>So deploy SSH key to get Read Write accces in private repository.
-   <br> Go to Add new SSH key From Git HuB Docs Foe more detail
-    </p>
-    <br><img id="#carimg" src="./images/private12.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<p>
-    Go to generate new SSH key <br>
-</p>           
-
-<br><img id="#carimg" src="./images/private13.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-</li>
-
-<br>Now copy the command <p>ssh-keygen -t ed25519 -C "your_email@example.com"</p>
-
-<br><img id="#carimg" src="./images/private14.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<br>Paste this command on terminal.
-<br><img id="#carimg" src="./images/private15.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<p>If your SSH key already exist it’s you can overwrite it. It’s up to you.</p>
-<li>Now assign process ID to agent key.
-    <br><p>eval "$(ssh-agent -s)"</p>
-    <br><img id="#carimg" src="./images/private16.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br><br>
-<br><img id="#carimg" src="./images/private17.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-</li>
-<li>Now add SSH-key to SSH agent.
-    <br>Command : <p>ssh-add ~/.ssh/id_ed25519</p>
-    <br><img id="#carimg" src="./images/private18.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-<br><img id="#carimg" src="./images/private19.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-</li>
-<li></li>Deploy SSH Key on Git Hub Account.
-
-<br><p>Copy Public key Contents to github Account<br>cat ~/.ssh/id_ed25519.pub<br></p>
-<br><img id="#carimg" src="./images/private20.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<br><img id="#carimg" src="./images/private21.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-<br><p>Copy the cat contents.</p>
-
-<br>Go To setthing.
-<br><img id="#carimg" src="./images/private28.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<br><p>Go to SSH and GPG Keys.</p>
-<br><img id="#carimg" src="./images/private29.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<br><img id="#carimg" src="./images/private22.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-<br><p>Add new SSH Key</p>
-
-<br><img id="#carimg" src="./images/private23.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-<br><p>After Entering the password The SSH key will be shown</p>
-<br>
-<br><img id="#carimg" src="./images/private24.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-</li>
-
-<li>Now switch to SSH url from your repository and copy it. and set remote url.
-    <br><img id="#carimg" src="./images/private25.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-<br><img id="#carimg" src="./images/private26.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-</li>
-
-<li>Now add file, commit and then push to the repository.<br>Command: <br>
-    git add index.html<br>
-    git commit -m "Adding HTML"<br>
-    git push -u origin master<br>
-
-    <br><img id="#carimg" src="./images/private26.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-    </li>
-            </ol>
-
-            
-
-
-
-
-        </ol>
-        </div>
-        
-
-        <div class="col-lg-1"></div>
-</div>
-
-
-
-<div class="row">
-    <div class="col-lg-1"></div>
-    <div id="privateToPublic" class="col-lg-10">
-        <h2>Steps To Make a Private Repository Public.</h2>
-        <ul>
-            <li>
-                Go to the repo settings.  <br>
-                <br><img id="#carimg" src="./images/pp1.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-            </li>
-
-            <li>
-                Scroll down till ‘Danger Zone’. Make it public by changing the visibility.
-                <br><br><img id="#carimg" src="./images/pp2.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-            </li>
-        </ul>
-</div>
-        <div class="col-lg-1"></div>
-        </div>
+    <div class="main">
+        <center>
+            <h1> GIT AND GITHUB</h1>
+        </center>
 
 
 
         <div class="row">
             <div class="col-lg-1"></div>
-            <div id="cloning" class="col-lg-10">
-                <h2>Cloning a Reposity</h2>
-                <h4>What does it means?</h4>
-                <p>Cloning a repository pulls down a full copy of all the repository data that GitHub.com has at that point in time, including all versions of every file and folder for the project. You can push your changes to the remote repository on GitHub.com, or pull other people's changes from GitHub.com.</p>
-                <br>
-                <p>Command : git clone url</p>
+            <div id="logo" class="col-lg-4">
+                <img id="#carimg" src="./images/githublogo.png" class="d-block w-100" alt="..."
+                    style="height: 300px; width: 1000px;">
+            </div>
+            <div id="gitIntro" class="col-lg-6">
 
-                <br>
-                <h5>Steps To Clone a Reposiitory</h5>
+                <h2>What is Git?</h2>
+                <p id="git">
                 <ul>
-                <li>Go to any Public Reposiitory.</li>
-                <li>Copy the url. <br>
-                <br><img id="#carimg" src="./images/clone1.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br></li>
+                    Git is a version control system.
+                    Git helps you keep track of code changes.
+                    Git is used to collaborate on code.</ul>
+                </p>
+
+                <h2>What is GITHUB?</h2>
+                <p id="github">
+                <ul>
+                    <li> GitHub is a code hosting platform for version control and collaboration.
+                        It lets you and others work together on projects from anywhere.
+                        This tutorial teaches you GitHub essentials like repositories, branches,
+                        commits, and pull requests.</li>
+                    <li>GitHub is an increasingly popular programming resource used for code sharing. It's a social
+                        networking site for programmers that many companies and
+                        organizations use to facilitate project management and collaboration.</li>
+                </ul>
+
+                </p>
+
+            </div>
+
+            <div class="col-lg-1"></div>
+        </div>
 
 
-                <li>Run the command on your terminal. If you don't want to clone with the same name
-                    youn can clone with a different name you want.
-                    <br><br><img id="#carimg" src="./images/clone2.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                </li>
 
-                <li>Now Repository folder will shown in your folder.<br>
-                    <br><img id="#carimg" src="./images/clone3.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                </li>
-            </ul>
-                            </div>
+        <div class="row" id="mycontents">
+            <div class="col-lg-1"></div>
+            <div id="CONTENTS" class="col-lg-7">
+
+                <h2>CONTENTS THAT YOU LEARN</h2>
+
+                <ul>
+                    <li><a href="#account">How To Make GITHUB Account</a>
+                    </li><a><a href="#repo">What are Repositories?</a>
+                        <ul>
+                            <li><a href="#publicrepos">Making Public Repositories</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#privaterepos">Making Private Repositories</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#privateToPublic">Making a Private Reposiitory Public.
+                                </a></li>
+                        </ul>
+                        </li>
+
+                        <li><a href="#livepages"> Making Live Wepage on GitHUB.</a></li>
+                        <li> <a href="#cloning">Cloning Repository</a></li>
+                        <li><a href="#adding">How to initializa , add, commit and cehck status
+                                of files.</a></li>
+                        <li><a href="#pushing">Setting Remote URL and pushing Files to github. </a></li>
+                        <li><a href="#deleting">Deleting file/folder.</a></li>
+                        <li><a href="#renaming">Renaming a file/folder.</a></li>
+                        <li><a href="#branching">Branching</a></li>
+                        <li><a href="#merging">Merging</a></li>
+                        <li><a href="#mergeconflict">Merge Conflict</a></li>
+                        <li><a href="#pull">Pull From Github.</a></li>
+                        <li><a href="#fork"> Fork Repository</a></li>
+                        <li><a href="#edit">Edit Files From Github Account</a></li>
+                </ul>
+
+            </div>
+            <div id="contentpic" class="col-lg-3">
+                <img id="#carimg" src="./images/contents.jpg" class="d-block w-100" alt="..."
+                    style="height: 400px; width: 1400px;">
+            </div>
+            <div class="col-lg-1"></div>
+
+
+
+
+            <div class="row">
                 <div class="col-lg-1"></div>
+                <div id="account" class="col-lg-10">
+
+                    <h2>MAKING GITHUB ACCOUNT</h2>
+                    <p>
+                    <ul>
+                        <li>Got github.com <a href="https://github.com/">github</a></li>
+
+                        <li>Click on sign up.</li>
+                        <li>Enter Credentials needed.</li>
+                        <li>Your Account will be created.</li>
+
+                    </ul>
+                    </p>
+
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="signin" class="col-lg-10">
+                    <img id="#carimg" src="./images/signin.png" class="d-block w-100" alt="..."
+                        style="height: 400px; width: 1400px;">
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="repo" class="col-lg-10">
+                    <h2>What are Repositories?</h2>
+                    <p>
+                    <ul>
+                        <li>A GitHub repository can be used to store a development project.</li>
+
+                        <li>It can contain folders and any type of files (HTML, CSS,
+                            JavaScript, Documents, Data, Images).</li>
+
+                        <li>A GitHub repository should also include a licence file and
+                            a README file about the project.</li>
+
+                        <li>A GitHub repository can also be used to
+                            store ideas, or any resources that you want to share.</li>
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="publicrepos" class="col-lg-10">
+
+                    <h3>MAKING Public Repositories</h3>
+                    <p>
+                    <ul>
+                        <li>Click on your profile icon.</li>
+                        <li>Go to your Repositories.</li>
+                        <li>Click on create new.
+                            <img id="#carimg" src="./images/publicrepo1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;">
+                        </li>
+
+                        <li>Click on create new.</li>
+
+                        <li>Make it public. <img id="#carimg" src="./images/publicrepo1.png" class="d-block w-100"
+                                alt="..." style="height: 400px; width: 1400px;"></li>
+                        <li>Click on Create Reposiitory <img id="#carimg" src="./images/publicrepo2.png"
+                                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"></li>
+
+
+
+
+                    </ul>
+
+                    </p>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="privaterepos" class="col-lg-10">
+                    <h3>Making Private Reposiitory</h3>
+                    <br>
+                    <ol>
+                        <li>Create a new repository on your git hub Accout.</li>
+                        <li>Choose it as Private Repository.</li>
+                        <br><img id="#carimg" src="./images/private1.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <li>Click on button create repository.</li>
+
+                        <br><img id="#carimg" src="./images/private2.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+                        <li>Now Open Project folder in either GitBash terminal or VScode terminal</li>
+
+                        <br><img id="#carimg" src="./images/private3.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br><img id="#carimg" src="./images/private4.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <li>Add Configuration Information. Commands are listed below:
+                            <ul>
+                                <li>git config --global user.name “Aliza Tariq”</li>
+                                <li>git config –global user.email username@gmail.com
+                                <li>To view config Information.<br>
+                                    git config –global –list</li>
+                        </li>
+                        </ul>
+                        </li>
+                        <br><img id="#carimg" src="./images/private5.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <li>Initialize the Repository by the following command.<br>
+                            git init
+
+
+                            <p>
+                                By this Command .git folder will be created which is a hidden folder and you can see by
+                                changing the settings.
+                                <br>
+                                Command to all folders/files including hidden.
+                                ls -lart
+
+                            </p>
+                            <br><img id="#carimg" src="./images/private6.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+                        <br><img id="#carimg" src="./images/private7.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br></li>
+
+                        <li>To view status <br> git status</li>
+                        <br><img id="#carimg" src="./images/private8.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+
+
+                        <li>To push Local repository in remote repository add/set remote url.<br>
+                            git remote add origin https://github.com/aliza-tariq/MC-A1-GitHub-WebPage.git
+                            <br>Copy the url
+
+
+                            <br><img id="#carimg" src="./images/private9.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            Git remote<br>
+                            Git remote -v
+                            <br><img id="#carimg" src="./images/private10.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                        </li>
+                        <li>
+                            SSH AND GPG KEYS Deploy<br>
+                            Pushing in private repository<br>
+                            When we try to push it will give an error because it is a private repository and git will
+                            not give such type of information about private one.
+
+                            <br><img id="#carimg" src="./images/private11.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                            <h5>What are SSH Keys?</h5>
+                            <p>SSH is a secure shell network protocol that is used for network management, remote file
+                                transfer, and remote system access.
+                                Using the SSH protocol, you can connect and authenticate to remote servers and services.
+                                With SSH keys, you can connect to GitHub without supplying your username and personal
+                                access token at each visit. You can also use an SSH key to sign commits.
+                            <ul>
+                                <li>SSH uses a pair of SSH keys to establish an
+                                    authenticated and encrypted secure network protocol.
+                                    It allows for secure remote communication on unsecured open networks.</li>
+                                <li>SSH keys are used to initiate a secure "handshake". When generating a
+                                    set of keys, you will generate a "public" and "private" key.</li>
+                                <li>The "public" key is the one you share with the remote party. Think of
+                                    this more as the lock.</li>
+                                <li>The "private" key is the one you keep for yourself in a secure place.
+                                    Think of this as the key to the lock.</li>
+                                <li>SSH keys are generated through a security algorithm.
+                                    It is all very complicated, but it uses prime numbers, and
+                                    large random numbers to make the public and private key.</li>
+                                <li>It is created so that the public key can be derived from
+                                    the private key, but not the other way around.</li>
+                            </ul>
+                            </p>
+
+                            <p>So deploy SSH key to get Read Write accces in private repository.
+                                <br> Go to Add new SSH key From Git HuB Docs Foe more detail
+                            </p>
+                            <br><img id="#carimg" src="./images/private12.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                            <p>
+                                Go to generate new SSH key <br>
+                            </p>
+
+                            <br><img id="#carimg" src="./images/private13.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <br>Now copy the command <p>ssh-keygen -t ed25519 -C "your_email@example.com"</p>
+
+                        <br><img id="#carimg" src="./images/private14.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+                        <br>Paste this command on terminal.
+                        <br><img id="#carimg" src="./images/private15.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+                        <p>If your SSH key already exist it’s you can overwrite it. It’s up to you.</p>
+                        <li>Now assign process ID to agent key.
+                            <br>
+                            <p>eval "$(ssh-agent -s)"</p>
+                            <br><img id="#carimg" src="./images/private16.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br><br>
+                            <br><img id="#carimg" src="./images/private17.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+                        <li>Now add SSH-key to SSH agent.
+                            <br>Command : <p>ssh-add ~/.ssh/id_ed25519</p>
+                            <br><img id="#carimg" src="./images/private18.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br><img id="#carimg" src="./images/private19.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                        </li>
+                        <li></li>Deploy SSH Key on Git Hub Account.
+
+                        <br>
+                        <p>Copy Public key Contents to github Account<br>cat ~/.ssh/id_ed25519.pub<br></p>
+                        <br><img id="#carimg" src="./images/private20.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+                        <br><img id="#carimg" src="./images/private21.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <p>Copy the cat contents.</p>
+
+                        <br>Go To setthing.
+                        <br><img id="#carimg" src="./images/private28.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+                        <br>
+                        <p>Go to SSH and GPG Keys.</p>
+                        <br><img id="#carimg" src="./images/private29.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+                        <br><img id="#carimg" src="./images/private22.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <p>Add new SSH Key</p>
+
+                        <br><img id="#carimg" src="./images/private23.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+
+                        <br>
+                        <p>After Entering the password The SSH key will be shown</p>
+                        <br>
+                        <br><img id="#carimg" src="./images/private24.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <li>Now switch to SSH url from your repository and copy it. and set remote url.
+                            <br><img id="#carimg" src="./images/private25.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br><img id="#carimg" src="./images/private26.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                        </li>
+
+                        <li>Now add file, commit and then push to the repository.<br>Command: <br>
+                            git add index.html<br>
+                            git commit -m "Adding HTML"<br>
+                            git push -u origin master<br>
+
+                            <br><img id="#carimg" src="./images/private26.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                        </li>
+                    </ol>
+
+
+
+
+
+
+                    </ol>
                 </div>
 
 
-
-
-                
-    <div class="row">
-        <div class="col-lg-1"></div>
-        <div id="adding" class="col-lg-10">
-
-            <ul>
-                <br><br><br>
-                <h2>Creating File</h2>
-                <li>Create a file "practice1.html."</li>
-                <li>Add some HTML code.
-                    <br><img id="#carimg" src="./images/add1.png" 
-class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                </li>
-
-                <br><br><br>
-                <h2>Initializing Repository</h2>
-                <li>First Initialize the Reposiitory. <br>Command <br>git init
-                    <br><img id="#carimg" src="./images/add2.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                </li>
-                <li>After this command .git Folder will be created which is hidden folder.
-                    You can this folder by changing settings.
-                </li>
-                <li>
-                    On terminal you can view all hidden folders using following command :
-                    <br>ls -lart 
-                    <br><br><img id="#carimg" src="./images/add3.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                </li>
-
-                <br><br><br>
-                <h2>Checking Git Status.</h2>
-                <li>You can check the git status by uisng the following command : <br> git status
-                    <br><br><img id="#carimg" src="./images/add4.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br></li>
-
-                    <br><br><br>
-                    <h2>Adding Files.</h2>
-                    <li>
-                        Initially the file will be an untracked file.
-
-                    </li>
-                    <li>When we add the file it will go to the stagged area.</li>
-                    <li>We add the file/directories by using two methods
-                        <ul>
-                            <li>By using name <br> Commmand : git add practice.html </li>
-                            <li>By using . symbol to add all files/folders <br>
-                                 Command : git add . or git add --all</li>
-                                 <li>By using * symbol to add files based on the extensions 
-                                    <br> Command : git add *.html
-                                 </li>
-
-                        </ul>
-                        <br><br><img id="#carimg" src="./images/add5.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    </li>
-                    
-                    <br><br><br>
-                <h2>Commitng the files. </h2>
-                <li>You can commit the file s in two ways:
-                    <ul><li>Commits with a one-line message <br>
-                        git commit -m "Message".
-                    </li>
-                <li>
-                    It pens the default editor to type a long message <br>
-                    git commit
-                </li></ul>
-                <br><br><img id="#carimg" src="./images/add6.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-                    <br><br><img id="#carimg" src="./images/add7.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-                    <br><br><img id="#carimg" src="./images/add8.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-
-                </li>
-            </ul>
+                <div class="col-lg-1"></div>
             </div>
-            <div class="col-lg-1"></div>
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="privateToPublic" class="col-lg-10">
+                    <h2>Steps To Make a Private Repository Public.</h2>
+                    <ul>
+                        <li>
+                            Go to the repo settings. <br>
+                            <br><img id="#carimg" src="./images/pp1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <li>
+                            Scroll down till ‘Danger Zone’. Make it public by changing the visibility.
+                            <br><br><img id="#carimg" src="./images/pp2.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="cloning" class="col-lg-10">
+                    <h2>Cloning a Reposity</h2>
+                    <h4>What does it means?</h4>
+                    <p>Cloning a repository pulls down a full copy of all the repository data that GitHub.com has at
+                        that point in time, including all versions of every file and folder for the project. You can
+                        push your changes to the remote repository on GitHub.com, or pull other people's changes from
+                        GitHub.com.</p>
+                    <br>
+                    <p>Command : git clone url</p>
+
+                    <br>
+                    <h5>Steps To Clone a Reposiitory</h5>
+                    <ul>
+                        <li>Go to any Public Reposiitory.</li>
+                        <li>Copy the url. <br>
+                            <br><img id="#carimg" src="./images/clone1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+
+                        <li>Run the command on your terminal. If you don't want to clone with the same name
+                            youn can clone with a different name you want.
+                            <br><br><img id="#carimg" src="./images/clone2.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <li>Now Repository folder will shown in your folder.<br>
+                            <br><img id="#carimg" src="./images/clone3.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="adding" class="col-lg-10">
+
+                    <ul>
+                        <br><br><br>
+                        <h2>Creating File</h2>
+                        <li>Create a file "practice1.html."</li>
+                        <li>Add some HTML code.
+                            <br><img id="#carimg" src="./images/add1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <br><br><br>
+                        <h2>Initializing Repository</h2>
+                        <li>First Initialize the Reposiitory. <br>Command <br>git init
+                            <br><img id="#carimg" src="./images/add2.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+                        <li>After this command .git Folder will be created which is hidden folder.
+                            You can this folder by changing settings.
+                        </li>
+                        <li>
+                            On terminal you can view all hidden folders using following command :
+                            <br>ls -lart
+                            <br><br><img id="#carimg" src="./images/add3.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <br><br><br>
+                        <h2>Checking Git Status.</h2>
+                        <li>You can check the git status by uisng the following command : <br> git status
+                            <br><br><img id="#carimg" src="./images/add4.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <br><br><br>
+                        <h2>Adding Files.</h2>
+                        <li>
+                            Initially the file will be an untracked file.
+
+                        </li>
+                        <li>When we add the file it will go to the stagged area.</li>
+                        <li>We add the file/directories by using two methods
+                            <ul>
+                                <li>By using name <br> Commmand : git add practice.html </li>
+                                <li>By using . symbol to add all files/folders <br>
+                                    Command : git add . or git add --all</li>
+                                <li>By using * symbol to add files based on the extensions
+                                    <br> Command : git add *.html
+                                </li>
+
+                            </ul>
+                            <br><br><img id="#carimg" src="./images/add5.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                        </li>
+
+                        <br><br><br>
+                        <h2>Commitng the files. </h2>
+                        <li>You can commit the file s in two ways:
+                            <ul>
+                                <li>Commits with a one-line message <br>
+                                    git commit -m "Message".
+                                </li>
+                                <li>
+                                    It pens the default editor to type a long message <br>
+                                    git commit
+                                </li>
+                            </ul>
+                            <br><br><img id="#carimg" src="./images/add6.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                            <br><br><img id="#carimg" src="./images/add7.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                            <br><br><img id="#carimg" src="./images/add8.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
             </div>
 
 
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div id="pushing" class="col-lg-10">
-                
+
                     <h2>Setting Remote URL</h2>
                     <ul>
                         <li>Set the remote url where your code will push.</li>
-                        <li>That URL could be your repository on GitHub, or another user's fork, or even on a completely different server.</li>
+                        <li>That URL could be your repository on GitHub, or another user's fork, or even on a completely
+                            different server.</li>
                         <li>Command : git remote add origin REMOTE_URL </li>
-                        <br><br><img id="#carimg" src="./images/push1.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br>
-                    <li>For public repository URL will be the HTTPS URL.</li>
-                    <li>In case of private repository URL will be the SSH URL.</li>
-                    <br><br><img id="#carimg" src="./images/push2.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> <br>
-                    <h2>Pushing To Repository</h2>
-                    <li>
-                        If you are pushing for the first time specify branch 
-                        where you want to push. 
-                        <br>It you want to push in master branch.
-                        <br>Command : git push -u origin master 
-                    </li>
-                    <li>
-                        The following command will push to previous specified branch.
-                        <br>git push 
-                    </li>
-                </ul>    
-                </div>
-                    </div>
-                    <div class="col-lg-1"></div>
-
-               <!-- ********************************************* -->
-                    <!-- ********************************************* -->
-
-                    <!-- DELETING A FILE FROM REPOSITORY -->
-                    <!-- ********************************************* -->
-                    <!-- ********************************************* -->
-
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div id="deleting" class="col-lg-10">
-                                <h2>Deleting file/folder from repository.</h2>
-                                <ul>
-                                    <li>
-                                        Use the following command to delate a file from repository
-                                        <br>
-                                        <p>git rm practice.html</p>
-                                        <br><br><img id="#carimg" src="./images/delete1.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> 
-                                    </li>
-                                    <li>This command delete the file from your disk folder but not
-                                        from the remote one.
-                                        <br><br><img id="#carimg" src="./images/delete2.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> 
-                                    </li>
-                                    <li>
-                                        To delete the file from the remote
-                                         repository commit the changes.
-                                         <br><br><img id="#carimg" src="./images/delete3.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> 
-                    
-                                    </li>
-                                    <li>Now File from Repository is alos deleted.
-                                        <br><br><img id="#carimg" src="./images/delete4.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> 
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-1"></div>
-                            </div>
-
-                        
-
-
-<!-- ********************************************* -->
-                    <!-- ********************************************* -->
-
-                    <!-- BRANCHING -->
-                    <!-- ********************************************* -->
-                    <!-- ********************************************* -->
-
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div id="branching" class="col-lg-10">
-                            <h2>BRANCHING</h2>
-                            <br><br>
-                            <h3>What is Branching?</h3>
-                            <p>
-
-                                A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
-                                 <br>
-                                Branches allow you to work on different parts of a project without impacting the main branch.
-                                <br>
-When the work is complete, a branch can be merged with the main project.
-<br>
-You can even switch between branches and work on different projects without them interfering with each other.
-<br>
-                            </p>
-
-                            <br><br><br>
-                            <h3>How to Make a new Branch.</h3>
-                            <ul>
-                                <li>Run the following Command On the terminal.
-                                    <br>
-                                    <b>git branch branchname</b>
-                                    <br><br><img id="#carimg" src="./images/branch1.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> 
-                                </li>
-                            </ul>
-
-                            <br><br><br>
-                            <h3>Checking Existing Branches</h3>
-                            <ul>
-                                <li>
-                                    Run the following command to see all branches.
-                                    <br><b>git branch</b>
-
-                                    
-                                    <br><br><img id="#carimg" src="./images/branch2.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> 
-
-                                </li>
-                                <li> The * symbol will show the current branch in which you are. </li>
-                            </ul>
-
-
-                            
-                            <br><br><br>
-                            <h3>Switching to other Branches.</h3>
-                            <ul>
-                                <li>
-                                    Following command is used to switch to the other branch.
-                                    <br><b>git checkout branch2</b>
-                                    <br><br><img id="#carimg" src="./images/branch3.png" 
-                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                    <br> 
-
-                                </li>
-                                <li>New branch will contain the same files as Master Branch.
-                                    <br><br><img id="#carimg" src="./images/branch6.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br> 
-                                </li>
-                               
-
-                            </ul>
-
-                            <br><br><br>
-                            <h3>Updating Files in New Branch.</h3>
-                            <ul>
-                                <li>Checkout to new Branch.</li>
-                                <li>Update Data.</li>
-                                <li>Commit changes. All the changes will be commit to new branch not master branch.</li>
-                                <li>Master branch data will remain Same.</li>
-
-                                <br><br><img id="#carimg" src="./images/branch4.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br> 
-
-                                    <br><br><img id="#carimg" src="./images/branch5.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br> 
-
-                                    <br><br><img id="#carimg" src="./images/branch7.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br> 
-
-                                    <br><br><img id="#carimg" src="./images/branch8.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>                                 
-
-                            </ul>
-
-                            <br><br><br>
-                            <h3>Comparing Branches</h3>
-                            <ul>
-                                <li>Yoc can Compare files in Branches</li>
-                                <li>When you are in new branch and new branch file/files are updated.
-                                    You cannot save the file. IDE will ask you to compare and resolve it.
-                                    as both branches are different somwhere.
-                                </li>
-                                <br><br><img id="#carimg" src="./images/branch9.png" 
-                                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                <br>  
-                                <br><br><img id="#carimg" src="./images/branch10.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>  
-
-                            </ul>
-
-                            <br><br><br>
-                            <h3>Deleting a branch</h3>
-                            <ul>
-                                <li>To delete a branch use the following command.
-                                    <br><b>Git branch –d branchname</b>
-                                    <br><br><img id="#carimg" src="./images/d1.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>  
-                                </li>
-                            </ul>
-
-                            </div>
-                            <div class="col-lg-1"></div>
-                            </div>
-
-
-                            <!-- ********************************************* -->
-                    <!-- ********************************************* -->
-
-
-                    <!-- BRANCHING -->
-
-                    <!-- MERGING -->
-
-                    <!-- ********************************************* -->
-                    <!-- ********************************************* -->
-
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-
-                        <div id="merging" class="col-lg-10">
-
-                            <br><br>
-                            <h2>Merging</h2>
-                            <br><br>
-                        <ul>
-                            <li>You can merge branch by using the following command.
-                                <br> <b>git merge branch brancname</b>
-                                <br> If you are in master branch, it will merge other branch to master 
-                                branch
-                            </li>
-                            <br><br><img id="#carimg" src="./images/merge1.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>
-
-                                    <br><br><img id="#carimg" src="./images/merge2.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>
-                            
-                        </ul>
-                </div>
-                            <div class="col-lg-1"></div>
-                        </div>
-
-
-<!-- MERGING -->
-                    <!-- ********************************************* -->
-                    <!-- ********************************************* -->
-
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div id="mergeconflict" class="col-lg-10">
-                            <br><br>
-                            <h2>Merge Conflict</h2>
-                            <br><br><br>
-                            <h3>What is Merge Conflict?</h3>
-                            <p>Merge conflicts occur when competing changes are made to the same line 
-                                of a file, or when one person
-                                 edits a file and another person deletes the same file.</p>
-                                 <br><br>
-                            <h5>Understanding Merge Conflict</h5>
-                            <ul>
-                                <li>Change a file or an image in your project
-                                    in other branch. 
-                                </li>
-                                <li>Overwrite the changes.</li>
-                                <li>Commit it.</li>
-                                <br><br><img id="#carimg" src="./images/mc1.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>
-                                    <li>Now switch to master branch</li>
-                                    <br><br><img id="#carimg" src="./images/mc2.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>
-
-                                    <li>Merge with branch 2.</li>
-
-                                    <br><br><img id="#carimg" src="./images/mc3.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>
-                                    <li>Merging failed because there is a conflict between files index.html and new image is added.</li>
-                                    <li>Check git status.</li>
-
-                                    <br><br><img id="#carimg" src="./images/mc4.png" 
-                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                    <br>
-
-                                    <li>This confirms there is a conflict in index.html, but the image files are ready and staged to be committed.
-                                        <br> So we need to fix that conflict. Open the Editor
-                                        </li>
-
-                                        <br><br><img id="#carimg" src="./images/mc5.png" 
-                                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                        <br>
-
-                                        <li>
-                                            Now we can stage index.html and check the status <br>
-Git add index.html <br>
-Git status <br>
-
-<br><br><img id="#carimg" src="./images/mc6.png" 
-                                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                        <br>
-                                        </li>
-                                        <li>The conflict has been fixed, and we can use commit to conclude the merge</li>
-                                        <br><br><img id="#carimg" src="./images/mc7.png" 
-                                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                        <br>
-
-                                        
-
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-1"></div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div id="pull" class="col-lg-10">
-                            <h2>Pull From Github.</h2>
-                            <br><br>
-                            <li>Edit File From Github.</li>
-                            <li>Commit Chnages.</li>
-                            <br><br><img id="#carimg" src="./images/pull1.png" 
-                                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                        <br>
-
-                                        <li><b>Fetch : </b> fetch gets all the change history of a tracked branch/repo.
-                                            So, on your local Git, fetch updates to see what has changed on GitHub
-                                            </li>
-                                            <li>Fetch the origin and check status.</li>
-                                            <li>It shows that there is 1 commit and you can pull it</li>
-                                            <br><br><img id="#carimg" src="./images/pull2.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-
-                                            <li>If we try to commit, there it will also show to pull it.
-                                              <br>  Use following command to pull 
-                                                 <br><b> git pull  pull3</b>
-                                                
-                                            </li>
-                           
-                           
-                                        </div>
-                            <div class="col-lg-1"></div>
-                            </div>
-
-
-
-
-                            <div class="row">
-                                <div class="col-lg-1"></div>
-                                <div id="renaming" class="col-lg-10">
-                                    <li>To rename a file following command is used
-                                        <br> <b>git mv sourcefilename destinationfilename </b>
-
-                                        </li>
-                                    </div>
-                                    <div class="col-lg-1"></div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-lg-1"></div>
-                                        <div id="fork" class="col-lg-10">
-                                            <br><br><br>
-                                            <h2>What is mean to FORK?</h2>
-                                            <br>
-                                            <p>A fork is a copy of a repository. This is useful when you want to contribute to someone else's project or start your own project based on theirs.
-                                                fork is not a command in Git, but something offered in GitHub and other repository hosts. 
-                                               
-                                               <br> Login to your account.
-                                                <br> Go to some repository
-                                                Click on Fork <br>
-                                                Then create a new fork <br>
-                                                </p>
-
-                                                <br><br><img id="#carimg" src="./images/fork1.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-                                            <li>Now click on create fork.</li>
-                                            <br><br><img id="#carimg" src="./images/fork2.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-
-                                            <li>Now the repository will be available to your account</li>
-                                            <br><br><img id="#carimg" src="./images/fork2.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-                                            </div>
-                                            <div class="col-lg-1"></div>
-                                            </div>
-
-
-                                            <div class="row">
-                                                <div class="col-lg-1"></div>
-                                                <div id="edit" class="col-lg-10">
-                                                    <br><br><br>
-                                                    <h2>Edit Files From Github Account.</h2>
-                                                    <br>
-                                                    
-                                                    <ul>
-                                                        <li>
-                                                            
-                                                            Go to your Repository</li>
-                                                            <li>
-                                                            Click on the file which you 
-                                                            want to edit</li><>
-                                                            Select edit this file
-                                                        </li>
-
-                                                        <br><br><img id="#carimg" src="./images/edit1.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-                                            <li>After editing commit the changes or create 
-                                                a new branch for this changes to commit.</li>
-                                                <br><br><img id="#carimg" src="./images/edit2.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-                                                    </ul>
-
-
-
-                                                    </div>
-                                                    <div class="col-lg-1"></div>
-                                                    </div>
-
-
-
-                                                    <div class="row">
-                                                        <div class="col-lg-1"></div>
-                                                        <div id="livepages" class="col-lg-10">
-                                                            <br><br><br>
-                                                            <h2>Github Live Pages</h2>
-                                                            <br>
-                                                            <h4>Following are the steps :</h4>
-                                                            <ul>
-                                                                <li>
-                                                                    Go to project settings.
-                                                                </li>
-                                                                <br><br><img id="#carimg" src="./images/page1.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-                                            <li>Go to pages</li>
-                                            <br><br><img id="#carimg" src="./images/page2.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-                                            <li>Select the main branch <br>
-                                                And save it <br>
-                                                After few minutes link will be available
-                                                 where your page is live or deploy. <br>
-                                                </li>
-
-                                                <br><br><img id="#carimg" src="./images/page3.png" 
-                                            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
-                                            <br>
-                                            
-                                                            </ul>
-                                                            </div>
-                                                            <div class="col-lg-1"></div>
-                                                            </div>
-
-
-
-
-
-
-<footer class="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
-                    <h3>GIT HUB TEACHING GUIDE</h3>
-                    <p>lorem ipsum</p>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
-                    <h2>Useful link</h2>
-                    <ul>
-                        <li><a href="#">Event</a></li>
-                        <li><a href="#">Support</a></li>
-                        
+                        <br><br><img id="#carimg" src="./images/push1.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <li>For public repository URL will be the HTTPS URL.</li>
+                        <li>In case of private repository URL will be the SSH URL.</li>
+                        <br><br><img id="#carimg" src="./images/push2.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br> <br>
+                        <h2>Pushing To Repository</h2>
+                        <li>
+                            If you are pushing for the first time specify branch
+                            where you want to push.
+                            <br>It you want to push in master branch.
+                            <br>Command : git push -u origin master
+                        </li>
+                        <li>
+                            The following command will push to previous specified branch.
+                            <br>git push
+                        </li>
                     </ul>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
-                    <h2>Follow us</h2>
-                    <p>Please follow us on our social media profile in order to keep updated.</p>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30">
-                    <h2>Our Newsletter</h2>
-                    <p>Kindly subscribe to our newsletter</p>
-                    
-                </div>
             </div>
+            <div class="col-lg-1"></div>
+
+            <!-- ********************************************* -->
+            <!-- ********************************************* -->
+
+            <!-- DELETING A FILE FROM REPOSITORY -->
+            <!-- ********************************************* -->
+            <!-- ********************************************* -->
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="deleting" class="col-lg-10">
+                    <h2>Deleting file/folder from repository.</h2>
+                    <ul>
+                        <li>
+                            Use the following command to delate a file from repository
+                            <br>
+                            <p>git rm practice.html</p>
+                            <br><br><img id="#carimg" src="./images/delete1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+                        <li>This command delete the file from your disk folder but not
+                            from the remote one.
+                            <br><br><img id="#carimg" src="./images/delete2.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+                        <li>
+                            To delete the file from the remote
+                            repository commit the changes.
+                            <br><br><img id="#carimg" src="./images/delete3.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+
+                        </li>
+                        <li>Now File from Repository is alos deleted.
+                            <br><br><img id="#carimg" src="./images/delete4.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+
+            <!-- ********************************************* -->
+            <!-- ********************************************* -->
+
+            <!-- BRANCHING -->
+            <!-- ********************************************* -->
+            <!-- ********************************************* -->
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="branching" class="col-lg-10">
+                    <h2>BRANCHING</h2>
+                    <br><br>
+                    <h3>What is Branching?</h3>
+                    <p>
+
+                        A branch in Git is simply a lightweight movable pointer to one of these commits. The default
+                        branch name in Git is master . As you start making commits, you're given a master branch that
+                        points to the last commit you made. Every time you commit, the master branch pointer moves
+                        forward automatically.
+                        <br>
+                        Branches allow you to work on different parts of a project without impacting the main branch.
+                        <br>
+                        When the work is complete, a branch can be merged with the main project.
+                        <br>
+                        You can even switch between branches and work on different projects without them interfering
+                        with each other.
+                        <br>
+                    </p>
+
+                    <br><br><br>
+                    <h3>How to Make a new Branch.</h3>
+                    <ul>
+                        <li>Run the following Command On the terminal.
+                            <br>
+                            <b>git branch branchname</b>
+                            <br><br><img id="#carimg" src="./images/branch1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+                    </ul>
+
+                    <br><br><br>
+                    <h3>Checking Existing Branches</h3>
+                    <ul>
+                        <li>
+                            Run the following command to see all branches.
+                            <br><b>git branch</b>
+
+
+                            <br><br><img id="#carimg" src="./images/branch2.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+
+                        </li>
+                        <li> The * symbol will show the current branch in which you are. </li>
+                    </ul>
+
+
+
+                    <br><br><br>
+                    <h3>Switching to other Branches.</h3>
+                    <ul>
+                        <li>
+                            Following command is used to switch to the other branch.
+                            <br><b>git checkout branch2</b>
+                            <br><br><img id="#carimg" src="./images/branch3.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+
+                        </li>
+                        <li>New branch will contain the same files as Master Branch.
+                            <br><br><img id="#carimg" src="./images/branch6.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+
+
+                    </ul>
+
+                    <br><br><br>
+                    <h3>Updating Files in New Branch.</h3>
+                    <ul>
+                        <li>Checkout to new Branch.</li>
+                        <li>Update Data.</li>
+                        <li>Commit changes. All the changes will be commit to new branch not master branch.</li>
+                        <li>Master branch data will remain Same.</li>
+
+                        <br><br><img id="#carimg" src="./images/branch4.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <br><br><img id="#carimg" src="./images/branch5.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <br><br><img id="#carimg" src="./images/branch7.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <br><br><img id="#carimg" src="./images/branch8.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                    </ul>
+
+                    <br><br><br>
+                    <h3>Comparing Branches</h3>
+                    <ul>
+                        <li>Yoc can Compare files in Branches</li>
+                        <li>When you are in new branch and new branch file/files are updated.
+                            You cannot save the file. IDE will ask you to compare and resolve it.
+                            as both branches are different somwhere.
+                        </li>
+                        <br><br><img id="#carimg" src="./images/branch9.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <br><br><img id="#carimg" src="./images/branch10.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                    </ul>
+
+                    <br><br><br>
+                    <h3>Deleting a branch</h3>
+                    <ul>
+                        <li>To delete a branch use the following command.
+                            <br><b>Git branch –d branchname</b>
+                            <br><br><img id="#carimg" src="./images/d1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+            <!-- ********************************************* -->
+            <!-- ********************************************* -->
+
+
+            <!-- BRANCHING -->
+
+            <!-- MERGING -->
+
+            <!-- ********************************************* -->
+            <!-- ********************************************* -->
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+
+                <div id="merging" class="col-lg-10">
+
+                    <br><br>
+                    <h2>Merging</h2>
+                    <br><br>
+                    <ul>
+                        <li>You can merge branch by using the following command.
+                            <br> <b>git merge branch brancname</b>
+                            <br> If you are in master branch, it will merge other branch to master
+                            branch
+                        </li>
+                        <br><br><img id="#carimg" src="./images/merge1.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <br><br><img id="#carimg" src="./images/merge2.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+            <!-- MERGING -->
+            <!-- ********************************************* -->
+            <!-- ********************************************* -->
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="mergeconflict" class="col-lg-10">
+                    <br><br>
+                    <h2>Merge Conflict</h2>
+                    <br><br><br>
+                    <h3>What is Merge Conflict?</h3>
+                    <p>Merge conflicts occur when competing changes are made to the same line
+                        of a file, or when one person
+                        edits a file and another person deletes the same file.</p>
+                    <br><br>
+                    <h5>Understanding Merge Conflict</h5>
+                    <ul>
+                        <li>Change a file or an image in your project
+                            in other branch.
+                        </li>
+                        <li>Overwrite the changes.</li>
+                        <li>Commit it.</li>
+                        <br><br><img id="#carimg" src="./images/mc1.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <li>Now switch to master branch</li>
+                        <br><br><img id="#carimg" src="./images/mc2.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <li>Merge with branch 2.</li>
+
+                        <br><br><img id="#carimg" src="./images/mc3.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <li>Merging failed because there is a conflict between files index.html and new image is added.
+                        </li>
+                        <li>Check git status.</li>
+
+                        <br><br><img id="#carimg" src="./images/mc4.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <li>This confirms there is a conflict in index.html, but the image files are ready and staged to
+                            be committed.
+                            <br> So we need to fix that conflict. Open the Editor
+                        </li>
+
+                        <br><br><img id="#carimg" src="./images/mc5.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                        <li>
+                            Now we can stage index.html and check the status <br>
+                            Git add index.html <br>
+                            Git status <br>
+
+                            <br><br><img id="#carimg" src="./images/mc6.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                        </li>
+                        <li>The conflict has been fixed, and we can use commit to conclude the merge</li>
+                        <br><br><img id="#carimg" src="./images/mc7.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-1"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="pull" class="col-lg-10">
+                    <h2>Pull From Github.</h2>
+                    <br><br>
+                    <li>Edit File From Github.</li>
+                    <li>Commit Chnages.</li>
+                    <br><br><img id="#carimg" src="./images/pull1.png" class="d-block w-100" alt="..."
+                        style="height: 400px; width: 1400px;"><br>
+                    <br>
+
+                    <li><b>Fetch : </b> fetch gets all the change history of a tracked branch/repo.
+                        So, on your local Git, fetch updates to see what has changed on GitHub
+                    </li>
+                    <li>Fetch the origin and check status.</li>
+                    <li>It shows that there is 1 commit and you can pull it</li>
+                    <br><br><img id="#carimg" src="./images/pull2.png" class="d-block w-100" alt="..."
+                        style="height: 400px; width: 1400px;"><br>
+                    <br>
+
+                    <li>If we try to commit, there it will also show to pull it.
+                        <br> Use following command to pull
+                        <br><b> git pull pull3</b>
+
+                    </li>
+
+
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="renaming" class="col-lg-10">
+                    <li>To rename a file following command is used
+                        <br> <b>git mv sourcefilename destinationfilename </b>
+
+                    </li>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="fork" class="col-lg-10">
+                    <br><br><br>
+                    <h2>What is mean to FORK?</h2>
+                    <br>
+                    <p>A fork is a copy of a repository. This is useful when you want to contribute to someone else's
+                        project or start your own project based on theirs.
+                        fork is not a command in Git, but something offered in GitHub and other repository hosts.
+
+                        <br> Login to your account.
+                        <br> Go to some repository
+                        Click on Fork <br>
+                        Then create a new fork <br>
+                    </p>
+
+                    <br><br><img id="#carimg" src="./images/fork1.png" class="d-block w-100" alt="..."
+                        style="height: 400px; width: 1400px;"><br>
+                    <br>
+                    <li>Now click on create fork.</li>
+                    <br><br><img id="#carimg" src="./images/fork2.png" class="d-block w-100" alt="..."
+                        style="height: 400px; width: 1400px;"><br>
+                    <br>
+
+                    <li>Now the repository will be available to your account</li>
+                    <br><br><img id="#carimg" src="./images/fork2.png" class="d-block w-100" alt="..."
+                        style="height: 400px; width: 1400px;"><br>
+                    <br>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="edit" class="col-lg-10">
+                    <br><br><br>
+                    <h2>Edit Files From Github Account.</h2>
+                    <br>
+
+                    <ul>
+                        <li>
+
+                            Go to your Repository</li>
+                        <li>
+                            Click on the file which you
+                            want to edit</li>
+                        <>
+                            Select edit this file
+                            </li>
+
+                            <br><br><img id="#carimg" src="./images/edit1.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                            <li>After editing commit the changes or create
+                                a new branch for this changes to commit.</li>
+                            <br><br><img id="#carimg" src="./images/edit2.png" class="d-block w-100" alt="..."
+                                style="height: 400px; width: 1400px;"><br>
+                            <br>
+                    </ul>
+
+
+
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div id="livepages" class="col-lg-10">
+                    <br><br><br>
+                    <h2>Github Live Pages</h2>
+                    <br>
+                    <h4>Following are the steps :</h4>
+                    <ul>
+                        <li>
+                            Go to project settings.
+                        </li>
+                        <br><br><img id="#carimg" src="./images/page1.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <li>Go to pages</li>
+                        <br><br><img id="#carimg" src="./images/page2.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+                        <li>Select the main branch <br>
+                            And save it <br>
+                            After few minutes link will be available
+                            where your page is live or deploy. <br>
+                        </li>
+
+                        <br><br><img id="#carimg" src="./images/page3.png" class="d-block w-100" alt="..."
+                            style="height: 400px; width: 1400px;"><br>
+                        <br>
+
+                    </ul>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+
+
+
+
+
+
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                                <h3>GIT HUB TEACHING GUIDE</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+                                <h2>Useful link</h2>
+                                <ul>
+                                    <li><a href="#">Event</a></li>
+                                    <li><a href="#">Support</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+                                <h2>Follow us</h2>
+                                <p>Please follow us on our social media profile in order to keep updated.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30">
+                                <h2>Our Newsletter</h2>
+                                <p>Kindly subscribe to our newsletter</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer-bottom-text">All rights reserved by &copy;StudyHub.2022</p>
+            </footer>
         </div>
-    </div>
-    <p class="footer-bottom-text">All rights reserved by &copy;StudyHub.2022</p>
-</footer>
-</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+</body>
 
-    </html>
+</html>
