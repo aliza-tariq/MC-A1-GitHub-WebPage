@@ -4,13 +4,21 @@ body{
 }
 
 #mycontents{
-    background-color: rgb(206, 191, 206);
+    background-color: rgb(193, 191, 206);
 }
 .myNavbar
 {
-    background-color: rgb(87, 28, 87);
+    background-color: rgb(5, 21, 88);;
     color: white !important;
-    font-size: larger; 
+    font-size: large; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
+.nav-link {
+    color: white !important;
+    }
+
+
+
+
+    
