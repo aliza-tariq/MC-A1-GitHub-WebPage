@@ -7,6 +7,16 @@ body{
     background-color: rgb(193, 191, 206);
 }
 
+.layout-container {
+    display: flex;
+  }
+  main {
+    flex: 3;
+  }
+  aside {
+    flex: 1;
+    background-color: black;
+  }
 
 
 

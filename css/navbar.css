@@ -9,3 +9,128 @@
 .nav-link {
     color: white !important;
     }
+
+
+    .sidenav {
+        height: 100%;
+        width: 160px;
+        float: left;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(5, 21, 88);;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .main {
+        margin-left: 160px; /* Same as the width of the sidenav */
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+      .footer{
+        width: 100vw;
+        height: 0rem;
+        margin-top:auto;
+    }
+    .footer-top{
+        background: #111;
+        padding: 80px 0;
+        margin-top:auto;
+    }
+    .segment-one h3{
+        font-family: verdana;
+        color:#fff;
+        letter-spacing: 3px;
+        margin: 10px 0;
+    }
+    .segment-two h2{
+        font-family: verdana;
+        color:#fff;
+    }
+    .segment-two h2:before{
+        content: '|';
+        color: teal;
+        padding-right: 10px;
+    }
+    .segment-two ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .segment-two ul li{
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        line-height: 40px;
+    }
+    .segment-two ul li a{
+        color: #999;
+        text-decoration: none;
+    }
+    .segment-three h2{
+        color: #fff;
+        font-family: verdana;
+        text-transform: uppercase;
+    }
+    .segment-three h2:before{
+        content: '|';
+        color: teal;
+        padding-right: 10px;
+    }
+    .segment-three a{
+        background: #494848;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 50%;
+    }
+    .segment-three a i{
+        font-size: 20px;
+        color:#fff;
+        padding: 10px 12px;
+    }
+    .segment-four h2{
+        color: #fff;
+        font-family: verdana;
+        text-transform: uppercase;
+    }
+    .segment-four h2:before{
+        content: '|';
+        color: teal;
+        padding-right: 10px;
+    }
+    .segment-four form input[type=submit]{
+        background: teal;
+        border: none;
+        width: 95px;
+        height: 30px;
+        text-align: center;
+        padding: 1px 5px;
+        margin-left: -5px;
+        border-radius: 3px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .footer-bottom-text{
+        text-align: center;
+        background: #000;
+        line-height: 40px;
+        margin-top:auto;
+    }
+    
