@@ -806,13 +806,11 @@ You can even switch between branches and work on different projects without them
                     <div class="row">
                         <div class="col-lg-1"></div>
 
-                        <div id="Merging" class="col-lg-10">
-
                         <div id="merging" class="col-lg-10">
 
                             <br><br>
                             <h2>Merging</h2>
-                            <br><br><br>
+                            <br><br>
                         <ul>
                             <li>You can merge branch by using the following command.
                                 <br> <b>git merge branch brancname</b>
@@ -853,6 +851,47 @@ You can even switch between branches and work on different projects without them
                                 <li>Change a file or an image in your project
                                     in other branch. 
                                 </li>
+                                <li>Overwrite the changes.</li>
+                                <li>Commit it.</li>
+                                <br><br><img id="#carimg" src="./images/mc1.png" 
+                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                                    <br>
+                                    <li>Now switch to master branch</li>
+                                    <br><br><img id="#carimg" src="./images/mc2.png" 
+                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                                    <br>
+
+                                    <li>Merge with branch 2.</li>
+
+                                    <br><br><img id="#carimg" src="./images/mc3.png" 
+                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                                    <br>
+                                    <li>Merging failed because there is a conflict between files index.html and new image is added.</li>
+                                    <li>Check git status.</li>
+
+                                    <br><br><img id="#carimg" src="./images/mc4.png" 
+                                    class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                                    <br>
+
+                                    <li>This confirms there is a conflict in index.html, but the image files are ready and staged to be committed.
+                                        <br> So we need to fix that conflict. Open the Editor
+                                        </li>
+
+                                        <br><br><img id="#carimg" src="./images/mc5.png" 
+                                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                                        <br>
+
+                                        <li>
+                                            Now we can stage index.html and check the status <br>
+Git add index.html <br>
+Git status <br>
+
+<br><br><img id="#carimg" src="./images/mc6.png" 
+                                        class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                                        <br>
+                                        </li>
+
+
                             </ul>
                         </div>
 
