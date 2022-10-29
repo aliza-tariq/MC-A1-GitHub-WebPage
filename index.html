@@ -253,11 +253,105 @@
                 <ul>
                     <li>git config --global user.name “Aliza Tariq”</li>
                     <li>git config –global user.email username@gmail.com
-                        <li>>To view config Information.<br>
+                        <li>To view config Information.<br>
                             git config –global –list</li>
                         </li>
                 </ul>
             </li>
+            <br><img id="#carimg" src="./images/private5.png" 
+            class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+            <li>Initial the Repository by the following command.<br>
+                git init
+                
+
+                <p>
+                    By this Command .git folder will be created which is a hidden folder and you can see by changing the settings.
+<br>
+Command to all folders/files including hidden.
+ls -lart
+
+                </p>
+                <br><img id="#carimg" src="./images/private6.png" 
+                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br></li>
+                <br><img id="#carimg" src="./images/private7.png" 
+                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br></li>
+
+            <li>To view status <br> git status</li>
+            <br><img id="#carimg" src="./images/private8.png" 
+                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+
+
+
+                <li>To push Local repository in remote repository add/set remote url.<br>
+                    git remote add origin https://github.com/aliza-tariq/MC-A1-GitHub-WebPage.git
+                <br>Copy the url
+                
+
+                <br><img id="#carimg" src="./images/private9.png" 
+                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                Git remote<br>
+                Git remote -v
+                <br><img id="#carimg" src="./images/private10.png" 
+                class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+                
+            </li>
+            <li>
+                SSH AND GPG KEYS Deploy<br>
+Pushing in private repository<br>
+When we try to push it will give an error because it is a private repository and git will not give such type of information about private one.
+
+<br><img id="#carimg" src="./images/private11.png" 
+class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+
+<h5>What are SSH Keys?</h5>
+<p>SSH is a secure shell network protocol that is used for network management, remote file transfer, and remote system access.
+    Using the SSH protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit. You can also use an SSH key to sign commits.
+<ul>
+<li>SSH uses a pair of SSH keys to establish an 
+    authenticated and encrypted secure network protocol.
+     It allows for secure remote communication on unsecured open networks.</li>
+<li>SSH keys are used to initiate a secure "handshake". When generating a 
+    set of keys, you will generate a "public" and "private" key.</li>
+<li>The "public" key is the one you share with the remote party. Think of 
+    this more as the lock.</li>
+<li>The "private" key is the one you keep for yourself in a secure place. 
+    Think of this as the key to the lock.</li>
+<li>SSH keys are generated through a security algorithm. 
+    It is all very complicated, but it uses prime numbers, and
+     large random numbers to make the public and private key.</li>
+<li>It is created so that the public key can be derived from
+     the private key, but not the other way around.</li>
+</ul>    
+</p>
+
+<p>So deploy SSH key to get Read Write accces in private repository.
+   <br> Go to Add new SSH key From Git HuB Docs Foe more detail
+    </p>
+    <br><img id="#carimg" src="./images/private12.png" 
+class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+
+<p>
+    Go to generate new SSH key <br>
+</p>           
+
+<br><img id="#carimg" src="./images/private13.png" 
+class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+</li>
+
+<br>Now copy the command <p>ssh-keygen -t ed25519 -C "your_email@example.com"</p>
+
+<br><img id="#carimg" src="./images/private14.png" 
+class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+
+<br>Paste this command on terminal.
+<br><img id="#carimg" src="./images/private15.png" 
+class="d-block w-100" alt="..." style="height: 400px; width: 1400px;"><br>
+<li>Now c</li>
+            </ol>
+
+            
+
+
 
 
         </ol>
